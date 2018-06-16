@@ -11,6 +11,8 @@
        
     	<!-- {{Form::text('name', '',['class'=>'form-control', 'placeholder' =>'Enter  Your Name'])}} -->
     </div>
+    
+
     <div class="form-group">
         {{Form::label('address', 'Address')}}
         <input type="text" class="form-control" name="address" required=""placeholder ="Enter  Your Address">

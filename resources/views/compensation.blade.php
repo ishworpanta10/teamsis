@@ -5,6 +5,19 @@
 <h1>Compensation</h1>
 {!! Form::open(['url' => 'compensation/submit']) !!}
   <div class="form-group">
+        {{Form::label('name', 'Name')}}
+       <input type="text" class="form-control" name="" required=""placeholder="Enter You Name" >
+       
+    </div>
+         <div class="form-group">
+    {{Form::label('certificateno', 'Ownership Certificate Number')}}
+        <input type="number" class="form-control" name="certificateno" required=""placeholder ="Enter  Your Ownership Certificate Number">
+       
+        <!-- {{Form::text('name', '',['class'=>'form-control', 'placeholder' =>'Enter  Your Name'])}} -->
+    </div>
+
+
+  <div class="form-group">
         {{Form::label('issuedate', 'Date of Issue')}}
        <input type="date" class="form-control" name="" required="">
        
